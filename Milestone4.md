@@ -24,6 +24,8 @@ Terminal showing a successful build with SpringBoot Logo
 
   Here’s the login screen for my CLC app, with a simple top bar that shows Home, Login, and Register. The page is clean and centered, with a bold Login title and a rounded card that looks neat. I added placeholders so it’s clear where to type the username and password, and the password field hides what you type. The main action is the Sign in button, and there’s a Create an account link for new users. Overall, it feels straightforward and easy to follow, which is exactly what I wanted for this step.---
 
+---
+
 ## 4) Shows Updated Register Page
 ![Build success](Register.png)
 
@@ -34,7 +36,6 @@ Terminal showing a successful build with SpringBoot Logo
 ![Build success](RegisterError.png)
 
   This screen is telling me the two password fields don’t match. The app compares Password and Confirm Password exactly, so even one extra space, a different letter case, or a small typo will trigger this message. The nice part is the rest of the form stays filled in, so I only need to fix the password fields. I should retype both passwords slowly and make sure they’re identical. If caps lock is on or I pasted one of them, I’ll double-check that too. Once they match, the red error goes away and I can create the account.
-
 ---
 
 ## 5) Same Layout
