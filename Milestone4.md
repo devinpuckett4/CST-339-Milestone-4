@@ -23,7 +23,6 @@ Terminal showing a successful build with SpringBoot Logo
 ![Build success](Login.png)
 
   Here’s the login screen for my CLC app, with a simple top bar that shows Home, Login, and Register. The page is clean and centered, with a bold Login title and a rounded card that looks neat. I added placeholders so it’s clear where to type the username and password, and the password field hides what you type. The main action is the Sign in button, and there’s a Create an account link for new users. Overall, it feels straightforward and easy to follow, which is exactly what I wanted for this step.---
-
 ---
 
 ## 4) Shows Updated Register Page
