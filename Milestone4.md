@@ -33,7 +33,7 @@ Terminal showing a successful build with SpringBoot Logo
 ## 5) Showing Registration Error
 ![Build success](RegisterError.png)
 
-  This screenshot highlights the consistent navigation bar that appears across all pages of the CLC application. Using a Thymeleaf fragment, the navbar provides links to Home, Products, and Logout, ensuring a uniform user experience throughout the site. The success alert “Product deleted.” is also displayed, showing feedback when a product is removed. By centralizing the navbar into a shared template, any updates to navigation automatically apply across every page, reinforcing both consistency and maintainability in the application’s design.
+  This screen is telling me the two password fields don’t match. The app compares Password and Confirm Password exactly, so even one extra space, a different letter case, or a small typo will trigger this message. The nice part is the rest of the form stays filled in, so I only need to fix the password fields. I should retype both passwords slowly and make sure they’re identical. If caps lock is on or I pasted one of them, I’ll double-check that too. Once they match, the red error goes away and I can create the account.
 
 ---
 
@@ -41,9 +41,10 @@ Terminal showing a successful build with SpringBoot Logo
 ![Build success](Template.png)
 
   This screenshot highlights the consistent navigation bar that appears across all pages of the CLC application. Using a Thymeleaf fragment, the navbar provides links to Home, Products, and Logout, ensuring a uniform user experience throughout the site. The success alert “Product deleted.” is also displayed, showing feedback when a product is removed. By centralizing the navbar into a shared template, any updates to navigation automatically apply across every page, reinforcing both consistency and maintainability in the application’s design.
-
+---
 
 
 
 ## - Conclusion
   For this milestone, I built a clean, simple CLC app shell with a dark top bar and centered cards so every screen feels the same. I added the welcome page plus the login and register pages, and kept the inputs clear with labels and placeholders so it is obvious what to do. Form validation is working, like the “passwords do not match” message that shows up in red and keeps the other fields in place. I focused on a basic, friendly flow where returning users can sign in fast and new users can create an account without confusion. I also organized the project and pushed it to GitHub, so the code is backed up and easy to share. Next will be the next upgrade and to continue building out the rest of the app features. Overall, this milestone provided me with a solid and consistent foundation to build upon.
+  ---
